@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.theme-yellow *::selection {
+	background-color: #f1b717;
+}
+.theme-yellow *::-moz-selection {
+	background-color: #f1b717;
+}
+
+.theme-yellow a,
+.theme-yellow a.reverse:hover,
+.theme-yellow h1 a:hover,
+.theme-yellow h2 a:hover,
+.theme-yellow h3 a:hover,
+.theme-yellow h4 a:hover,
+.theme-yellow h5 a:hover,
+.theme-yellow h6 a:hover,
+.theme-yellow .skin-color,
+.theme-yellow .h-wrapper .icon,
+.theme-yellow .item .price,
+.theme-yellow .blog-item .date > span,
+.theme-yellow label.rate-star:hover,
+.theme-yellow .radioareachecked,
+.theme-yellow .progress-bar-meter .icon:before,
+.theme-yellow .shopping-cart-menu-content a,
+.theme-yellow .pagination a:focus,
+.theme-yellow .pagination > span {
+	color: #f1b717;
+}
+
+.theme-yellow .nivoslider-wrap .nivo-directionNav a,
+.theme-yellow .normal-button, input[type='submit'], button,
+.theme-yellow .main-nav li a:hover,
+.theme-yellow .main-nav li a.active,
+.theme-yellow .adv figure a,
+.theme-yellow .item .sale,
+.theme-yellow .single-item a,
+.theme-yellow .item a:hover,
+.theme-yellow .progress-bar-meter,
+.theme-yellow .pa-tabs li a.active,
+.theme-yellow .pa-tabs li a:hover,
+.theme-yellow .normal-button,
+.theme-yellow input[type='submit'],
+.theme-yellow button {
+	background-color: #f1b717;
+}
+
+.theme-yellow input:focus,
+.theme-yellow textarea:focus,
+.theme-yellow .progress-bar-meter .icon,
+.theme-yellow table.cart .product-remove .remove:hover {
+	border-color: #f1b717;
+}
+
+.theme-yellow .top-bar {
+	border-bottom-color: #f1b717;
+}

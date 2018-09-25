@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.theme-cyan *::selection {
+	background-color: #21ffff;
+}
+.theme-cyan *::-moz-selection {
+	background-color: #21ffff;
+}
+
+.theme-cyan a,
+.theme-cyan a.reverse:hover,
+.theme-cyan h1 a:hover,
+.theme-cyan h2 a:hover,
+.theme-cyan h3 a:hover,
+.theme-cyan h4 a:hover,
+.theme-cyan h5 a:hover,
+.theme-cyan h6 a:hover,
+.theme-cyan .skin-color,
+.theme-cyan .h-wrapper .icon,
+.theme-cyan .item .price,
+.theme-cyan .blog-item .date > span,
+.theme-cyan label.rate-star:hover,
+.theme-cyan .radioareachecked,
+.theme-cyan .progress-bar-meter .icon:before,
+.theme-cyan .shopping-cart-menu-content a,
+.theme-cyan .pagination a:focus,
+.theme-cyan .pagination > span {
+	color: #21ffff;
+}
+
+.theme-cyan .nivoslider-wrap .nivo-directionNav a,
+.theme-cyan .normal-button, input[type='submit'], button,
+.theme-cyan .main-nav li a:hover,
+.theme-cyan .main-nav li a.active,
+.theme-cyan .adv figure a,
+.theme-cyan .item .sale,
+.theme-cyan .single-item a,
+.theme-cyan .item a:hover,
+.theme-cyan .progress-bar-meter,
+.theme-cyan .pa-tabs li a.active,
+.theme-cyan .pa-tabs li a:hover,
+.theme-cyan .normal-button,
+.theme-cyan input[type='submit'],
+.theme-cyan button {
+	background-color: #21ffff;
+}
+
+.theme-cyan input:focus,
+.theme-cyan textarea:focus,
+.theme-cyan .progress-bar-meter .icon,
+.theme-cyan table.cart .product-remove .remove:hover {
+	border-color: #21ffff;
+}
+
+.theme-cyan .top-bar {
+	border-bottom-color: #21ffff;
+}
