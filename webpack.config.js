@@ -53,8 +53,8 @@ module.exports = (env, argv) => {
             extensions: ['*', '.js', '.jsx']
         },
         output: {
-            path: __dirname + '/public',
-            publicPath: '/',
+            path: __dirname + '/build',
+            publicPath: '/wheels-react/',
             filename: 'bundle.js'
         },
         devServer: {
