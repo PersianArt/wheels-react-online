@@ -17,14 +17,13 @@
 .theme-magenta h6 a:hover,
 .theme-magenta .skin-color,
 .theme-magenta .h-wrapper .icon,
-.theme-magenta .item .price,
+.theme-magenta .product-item .price,
 .theme-magenta .blog-item .date > span,
 .theme-magenta label.rate-star:hover,
 .theme-magenta .radioareachecked,
 .theme-magenta .progress-bar-meter .icon:before,
 .theme-magenta .shopping-cart-menu-content a,
-.theme-magenta .pagination a:focus,
-.theme-magenta .pagination > span {
+.theme-magenta .pagination .pagination-item {
 	color: #d60a62;
 }
 
@@ -33,9 +32,9 @@
 .theme-magenta .main-nav li a:hover,
 .theme-magenta .main-nav li a.active,
 .theme-magenta .adv figure a,
-.theme-magenta .item .sale,
+.theme-magenta .product-item .sale,
 .theme-magenta .single-item a,
-.theme-magenta .item a:hover,
+.theme-magenta .product-item a:hover,
 .theme-magenta .progress-bar-meter,
 .theme-magenta .pa-tabs li a.active,
 .theme-magenta .pa-tabs li a:hover,

@@ -17,14 +17,13 @@
 .theme-green h6 a:hover,
 .theme-green .skin-color,
 .theme-green .h-wrapper .icon,
-.theme-green .item .price,
+.theme-green .product-item .price,
 .theme-green .blog-item .date > span,
 .theme-green label.rate-star:hover,
 .theme-green .radioareachecked,
 .theme-green .progress-bar-meter .icon:before,
 .theme-green .shopping-cart-menu-content a,
-.theme-green .pagination a:focus,
-.theme-green .pagination > span {
+.theme-green .pagination .pagination-item {
 	color: #17b782;
 }
 
@@ -33,9 +32,9 @@
 .theme-green .main-nav li a:hover,
 .theme-green .main-nav li a.active,
 .theme-green .adv figure a,
-.theme-green .item .sale,
+.theme-green .product-item .sale,
 .theme-green .single-item a,
-.theme-green .item a:hover,
+.theme-green .product-item a:hover,
 .theme-green .progress-bar-meter,
 .theme-green .pa-tabs li a.active,
 .theme-green .pa-tabs li a:hover,

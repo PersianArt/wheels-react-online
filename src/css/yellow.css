@@ -17,14 +17,13 @@
 .theme-yellow h6 a:hover,
 .theme-yellow .skin-color,
 .theme-yellow .h-wrapper .icon,
-.theme-yellow .item .price,
+.theme-yellow .product-item .price,
 .theme-yellow .blog-item .date > span,
 .theme-yellow label.rate-star:hover,
 .theme-yellow .radioareachecked,
 .theme-yellow .progress-bar-meter .icon:before,
 .theme-yellow .shopping-cart-menu-content a,
-.theme-yellow .pagination a:focus,
-.theme-yellow .pagination > span {
+.theme-yellow .pagination .pagination-item {
 	color: #f1b717;
 }
 
@@ -33,9 +32,9 @@
 .theme-yellow .main-nav li a:hover,
 .theme-yellow .main-nav li a.active,
 .theme-yellow .adv figure a,
-.theme-yellow .item .sale,
+.theme-yellow .product-item .sale,
 .theme-yellow .single-item a,
-.theme-yellow .item a:hover,
+.theme-yellow .product-item a:hover,
 .theme-yellow .progress-bar-meter,
 .theme-yellow .pa-tabs li a.active,
 .theme-yellow .pa-tabs li a:hover,

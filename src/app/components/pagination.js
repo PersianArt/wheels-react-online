@@ -24,23 +24,23 @@ export default class Pagination extends Component {
 		
 		return (
 			<div className="pagination">
-				<Link to={this.props.path}>First</Link>
+				<Link className='pagination-item' to={this.props.path}>First</Link>
 			
-				<Link to={(current === 1) ? this.props.path : this.props.path+'/page/'+(current-1) }>Previous</Link>
+				<Link className='pagination-item' to={(current === 1) ? this.props.path : this.props.path+'/page/'+(current-1) }>Previous</Link>
 				
-				{ (current === this.state.lastpage && this.state.lastpage > 2 && current-2 < this.state.lastpage ) ? <Link to={this.props.path+'/page/'+(current-2) }>{current-2}</Link> : '' }
+				{ (current === this.state.lastpage && this.state.lastpage > 2 && current-2 < this.state.lastpage ) ? <Link className='pagination-item' to={this.props.path+'/page/'+(current-2) }>{current-2}</Link> : '' }
 		
-				{ (current === 1) ? '' : <Link to={(current === 0) ? this.props.path : this.props.path+'/page/'+(current-1) }>{current-1}</Link> }
+				{ (current === 1) ? '' : <Link className='pagination-item' to={(current === 0) ? this.props.path : this.props.path+'/page/'+(current-1) }>{current-1}</Link> }
 				
 				{ (current === 1) ? <strong>1</strong> : <strong>{current}</strong> }
 				
-				{ (this.state.lastpage > 1 && current+1 <= this.state.lastpage) ? <Link to={this.props.path+'/page/'+(current+1) }>{current+1}</Link> : '' }
+				{ (this.state.lastpage > 1 && current+1 <= this.state.lastpage) ? <Link className='pagination-item' to={this.props.path+'/page/'+(current+1) }>{current+1}</Link> : '' }
 				
-				{ (current === 1 && this.state.lastpage > 2 && current+2 <= this.state.lastpage ) ? <Link to={this.props.path+'/page/'+(current+2) }>{current+2}</Link> : '' }
+				{ (current === 1 && this.state.lastpage > 2 && current+2 <= this.state.lastpage ) ? <Link className='pagination-item' to={this.props.path+'/page/'+(current+2) }>{current+2}</Link> : '' }
 			
-				<Link to={(current === this.state.lastpage) ? this.props.path+'/page/'+this.state.lastpage : this.props.path+'/page/'+(current+1) }>Next</Link>
+				<Link className='pagination-item' to={(current === this.state.lastpage) ? this.props.path+'/page/'+this.state.lastpage : this.props.path+'/page/'+(current+1) }>Next</Link>
 			
-				<Link to={(this.state.lastpage === 1) ? this.props.path : this.props.path+'/page/'+this.state.lastpage }>Last</Link>
+				<Link className='pagination-item' to={(this.state.lastpage === 1) ? this.props.path : this.props.path+'/page/'+this.state.lastpage }>Last</Link>
 			</div>
 		)
 	}

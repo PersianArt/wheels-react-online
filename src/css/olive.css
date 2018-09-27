@@ -17,14 +17,13 @@
 .theme-olive h6 a:hover,
 .theme-olive .skin-color,
 .theme-olive .h-wrapper .icon,
-.theme-olive .item .price,
+.theme-olive .product-item .price,
 .theme-olive .blog-item .date > span,
 .theme-olive label.rate-star:hover,
 .theme-olive .radioareachecked,
 .theme-olive .progress-bar-meter .icon:before,
 .theme-olive .shopping-cart-menu-content a,
-.theme-olive .pagination a:focus,
-.theme-olive .pagination > span {
+.theme-olive .pagination .pagination-item {
 	color: #9cba16;
 }
 
@@ -33,9 +32,9 @@
 .theme-olive .main-nav li a:hover,
 .theme-olive .main-nav li a.active,
 .theme-olive .adv figure a,
-.theme-olive .item .sale,
+.theme-olive .product-item .sale,
 .theme-olive .single-item a,
-.theme-olive .item a:hover,
+.theme-olive .product-item a:hover,
 .theme-olive .progress-bar-meter,
 .theme-olive .pa-tabs li a.active,
 .theme-olive .pa-tabs li a:hover,

@@ -17,14 +17,13 @@
 .theme-cyan h6 a:hover,
 .theme-cyan .skin-color,
 .theme-cyan .h-wrapper .icon,
-.theme-cyan .item .price,
+.theme-cyan .product-item .price,
 .theme-cyan .blog-item .date > span,
 .theme-cyan label.rate-star:hover,
 .theme-cyan .radioareachecked,
 .theme-cyan .progress-bar-meter .icon:before,
 .theme-cyan .shopping-cart-menu-content a,
-.theme-cyan .pagination a:focus,
-.theme-cyan .pagination > span {
+.theme-cyan .pagination .pagination-item {
 	color: #21ffff;
 }
 
@@ -33,9 +32,9 @@
 .theme-cyan .main-nav li a:hover,
 .theme-cyan .main-nav li a.active,
 .theme-cyan .adv figure a,
-.theme-cyan .item .sale,
+.theme-cyan .product-item .sale,
 .theme-cyan .single-item a,
-.theme-cyan .item a:hover,
+.theme-cyan .product-item a:hover,
 .theme-cyan .progress-bar-meter,
 .theme-cyan .pa-tabs li a.active,
 .theme-cyan .pa-tabs li a:hover,

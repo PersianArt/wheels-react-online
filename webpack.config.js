@@ -34,16 +34,7 @@ module.exports = (env, argv) => {
                     })
                 },
                 {
-                    test: /\.(png|jpg|gif|svg)$/,
-                    use: [{
-                        loader: 'file-loader',
-                        options: {
-                            name: 'images/[name].[ext]'
-                        }
-                    }]
-                },
-                {
-                    test: /\.(eot|ttf|woff|woff2)$/,
+                    test: /\.(eot|ttf|woff|woff2|svg)$/,
                     loader: 'file-loader',
                     options: {
                         name: 'fonts/[name].[ext]'

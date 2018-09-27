@@ -17,14 +17,13 @@
 .theme-blue h6 a:hover,
 .theme-blue .skin-color,
 .theme-blue .h-wrapper .icon,
-.theme-blue .item .price,
+.theme-blue .product-item .price,
 .theme-blue .blog-item .date > span,
 .theme-blue label.rate-star:hover,
 .theme-blue .radioareachecked,
 .theme-blue .progress-bar-meter .icon:before,
 .theme-blue .shopping-cart-menu-content a,
-.theme-blue .pagination a:focus,
-.theme-blue .pagination > span {
+.theme-blue .pagination .pagination-item {
 	color: #0dbff2;
 }
 
@@ -33,9 +32,9 @@
 .theme-blue .main-nav li a:hover,
 .theme-blue .main-nav li a.active,
 .theme-blue .adv figure a,
-.theme-blue .item .sale,
+.theme-blue .product-item .sale,
 .theme-blue .single-item a,
-.theme-blue .item a:hover,
+.theme-blue .product-item a:hover,
 .theme-blue .progress-bar-meter,
 .theme-blue .pa-tabs li a.active,
 .theme-blue .pa-tabs li a:hover,
