@@ -70,7 +70,7 @@ a.reverse:hover {
 }
 a.read-more {
 	padding: 0 10px 0 0 !important;
-	background: url(/images/read-more.png) 100% 50% no-repeat;
+	/*background: url(images/read-more.png) 100% 50% no-repeat;*/
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-o-transition: all .5s;
@@ -252,7 +252,7 @@ select {
 	display: block;
 	color: inherit;
 	border: 1px solid #f0f0f0;
-	background: #fff url(/images/select.png) center right no-repeat;
+	background: #fff url(images/select.png) center right no-repeat;
 	-webkit-appearance: none;
 	-moz-appearance: none;
 }
@@ -351,7 +351,7 @@ h3.title {
 	width: 100%;
 	height: 10px;
 	margin: 9px 0 15px;
-	background: url(/images/title-bg.png) center top no-repeat;
+	/*background: url(images/title-bg.png) center top no-repeat;*/
 	border-bottom: 1px solid #f0f0f0;
 }
 .h-wrapper .icon {
@@ -558,7 +558,7 @@ h3.title {
 	list-style: none;
 }
 .business-hours li {
-	background: url(/images/clock.png) 0 center no-repeat;
+	/*background: url(images/clock.png) 0 center no-repeat;*/
 	padding: 0 0 0 20px;
 	margin-bottom: 5px;
 }
@@ -751,7 +751,7 @@ h3.title {
 
 header {
 	min-height: 200px;
-	background:url(/images/header-bg.jpg);
+	background:url(images/header-bg.jpg);
 }
 .color-bar {
 	position: relative;
@@ -1057,7 +1057,7 @@ hr.line {
 	padding: 80px 0;
 	margin: 0 0 55px;
 	min-height: 420px;
-	/*background: url(/images/parallax1.jpg);
+	/*background: url(images/parallax1.jpg);
 	background-attachment: fixed !important;*/
 }
 .parallax > img {

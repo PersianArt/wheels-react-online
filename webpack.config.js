@@ -34,6 +34,13 @@ module.exports = (env, argv) => {
                     })
                 },
                 {
+                    test: /\.(jpg|png|gif)$/,
+                    loader: 'file-loader',
+                    options: {
+                        name: 'images/[name].[ext]'
+                    }
+                },
+                {
                     test: /\.(eot|ttf|woff|woff2|svg)$/,
                     loader: 'file-loader',
                     options: {
